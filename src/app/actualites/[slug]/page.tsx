@@ -75,11 +75,17 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     keywords: (post.tags || []).join(', '),
   };
 
+  // JSON-LD fourni par PHARE s'il existe (stocké tel quel sur l'article), sinon
+  // celui généré ci-dessus. `</script>` échappé pour ne pas casser la balise.
+  const articleLd = (
+    (post as { jsonLd?: string }).jsonLd || JSON.stringify(jsonLd)
+  ).replace(/</g, '\\u003c');
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: articleLd }}
       />
       <BlogArticle post={clientPost} relatedPosts={relatedPosts} />
     </>
