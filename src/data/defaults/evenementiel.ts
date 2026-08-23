@@ -1,6 +1,6 @@
 // Valeurs reelles actuelles de la page evenementiel.
 const defaults: Record<string, string> = {
-  "hero_image": "https://i.ibb.co/Y4hFfPTG/Evenementiel.png",
+  "hero_image": "https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/Y4hFfPTG-evenementiel.png",
   "hero_title_part1": "COMMUNICATION",
   "hero_title_part2": "ÉVÉNEMENTIELLE",
   "hero_subtitle": "Créez des moments mémorables et impactants pour votre entreprise",

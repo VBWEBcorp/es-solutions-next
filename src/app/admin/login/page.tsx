@@ -4,7 +4,7 @@ import { useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Loader2, Lock, Mail, ArrowRight } from 'lucide-react';
 
-const LOGO_URL = 'https://i.ibb.co/yBWBdDGV/Ic-ne-logo-fonc.png';
+const LOGO_URL = 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/yBWBdDGV-ic-ne-logo-fonc.png';
 
 function LoginForm() {
   const router = useRouter();

@@ -12,7 +12,7 @@ const HeroSection = ({ data }: { data?: Record<string, string> }) => {
   // Valeurs surchargeables depuis l'admin. Si le champ est vide, on garde la
   // valeur par defaut EXACTE -> le rendu public reste identique tant que rien
   // n'est saisi dans /admin/pages/accueil.
-  const heroImage = data?.hero_image || 'https://i.ibb.co/Q34j8xCF/Logo-Officiel-bleu-fonc.png';
+  const heroImage = data?.hero_image || 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/Q34j8xCF-logo-officiel-bleu-fonc.png';
   const heroBadge = data?.hero_badge || 'Notre consultant integre';
   const heroTitle = data?.hero_title || 'Votre solution pour vos besoins';
   const heroHighlight = data?.hero_highlight || '';

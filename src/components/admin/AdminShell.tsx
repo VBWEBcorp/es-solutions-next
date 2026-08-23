@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 import { ADMIN_EMAIL } from '@/lib/auth';
 
-const LOGO_URL = 'https://i.ibb.co/yBWBdDGV/Ic-ne-logo-fonc.png';
+const LOGO_URL = 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/yBWBdDGV-ic-ne-logo-fonc.png';
 
 const NAV: { label: string; href: string; icon: React.ElementType }[] = [
   { label: 'Tableau de bord', href: '/admin', icon: LayoutDashboard },

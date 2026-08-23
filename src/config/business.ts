@@ -5,7 +5,7 @@ export const BUSINESS_CONFIG = {
   shortName: 'ES Solutions',
   legalName: 'ES Solutions',
   url: process.env.SITE_URL || 'https://es-solutions-communication.fr',
-  logo: 'https://i.ibb.co/yBWBdDGV/Ic-ne-logo-fonc.png',
+  logo: 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/yBWBdDGV-ic-ne-logo-fonc.png',
   description:
     "ES Solutions Communication : votre consultant intégré directement dans vos locaux. Communication externe, marketing digital, événementiel et communication interne pour PME.",
   email: 'contact@es-solutions.fr',

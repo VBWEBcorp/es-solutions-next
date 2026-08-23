@@ -260,7 +260,7 @@ const Offers = ({ data }: { data?: Record<string, string> }) => {
                     className="flex items-start space-x-4 text-white"
                   >
                     <img
-                      src="https://i.ibb.co/YB3Fypbs/coche-1.png"
+                      src="https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/YB3Fypbs-coche-1.png"
                       alt="Checkmark"
                       className="h-6 w-6 flex-shrink-0 mt-1"
                     />

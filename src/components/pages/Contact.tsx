@@ -128,19 +128,19 @@ const Contact = ({ data }: { data?: Record<string, string> }) => {
     {
       id: 'externe',
       title: 'Communication Externe & Marketing',
-      iconUrl: 'https://i.ibb.co/1Y3wCStk/Com-externe.png',
+      iconUrl: 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/1Y3wCStk-com-externe.png',
       description: 'Stratégie, image de marque et réseaux sociaux'
     },
     {
       id: 'interne',
       title: 'Communication Interne',
-      iconUrl: 'https://i.ibb.co/C5n48TcF/Com-interne.png',
+      iconUrl: 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/C5n48TcF-com-interne.png',
       description: 'Cohésion d\'équipe et outils collaboratifs'
     },
     {
       id: 'evenementiel',
       title: 'Communication Événementielle',
-      iconUrl: 'https://i.ibb.co/Y4hFfPTG/Evenementiel.png',
+      iconUrl: 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/Y4hFfPTG-evenementiel.png',
       description: 'Organisation et gestion d\'événements'
     }
   ];

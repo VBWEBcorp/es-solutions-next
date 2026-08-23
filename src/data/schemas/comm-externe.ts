@@ -8,7 +8,7 @@ const schema: PageSchema = {
     {
       title: 'Section Héro',
       fields: [
-        { key: 'hero_image', label: 'Icône / image du héro', type: 'image', placeholder: 'https://i.ibb.co/1Y3wCStk/Com-externe.png' },
+        { key: 'hero_image', label: 'Icône / image du héro', type: 'image', placeholder: 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/1Y3wCStk-com-externe.png' },
         { key: 'hero_title_part1', label: 'Titre – partie 1 (avant la couleur)', type: 'text', placeholder: 'COMMUNICATION' },
         { key: 'hero_title_part2', label: 'Titre – partie 2 (en orange)', type: 'text', placeholder: 'EXTERNE' },
         { key: 'hero_subtitle', label: 'Sous-titre / accroche', type: 'textarea', placeholder: 'Développez votre image de marque et maximisez votre impact sur vos marchés cibles' },
