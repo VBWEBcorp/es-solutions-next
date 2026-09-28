@@ -64,7 +64,6 @@ export const metadata: Metadata = {
     images: [BUSINESS_CONFIG.logo],
   },
   robots: 'index, follow',
-  icons: { icon: BUSINESS_CONFIG.logo },
   verification: { google: BUSINESS_CONFIG.googleSiteVerification },
 };
 
