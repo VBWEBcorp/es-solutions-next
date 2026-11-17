@@ -1,6 +1,6 @@
 // Valeurs reelles actuelles de la page comm-interne.
 const defaults: Record<string, string> = {
-  "hero_image": "https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/C5n48TcF-com-interne.png",
+  "hero_image": "https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/C5n48TcF-com-interne.png",
   "hero_title_part1": "COMMUNICATION",
   "hero_title_part2": "INTERNE",
   "hero_subtitle": "Renforcez la cohésion d'équipe et optimisez le partage d'information au sein de votre entreprise",

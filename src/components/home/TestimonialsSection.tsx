@@ -14,8 +14,8 @@ const TestimonialsSection = ({ data }: { data?: Record<string, string> }) => {
     {
       name: data?.testimonial_1_name || 'Cécile LATOUR',
       role: data?.testimonial_1_role || 'Directrice IT,\nsolutions ERP et RH,\ngroupe Michelin',
-      avatar: data?.testimonial_1_avatar || 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/GvsK0sgY-cecile-pro-nov2022.jpg',
-      logo: data?.testimonial_1_logo || 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/spsPZsBK-michelin.jpg',
+      avatar: data?.testimonial_1_avatar || 'https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/GvsK0sgY-cecile-pro-nov2022.jpg',
+      logo: data?.testimonial_1_logo || 'https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/spsPZsBK-michelin.jpg',
       logoAlt: data?.testimonial_1_logo_alt || 'Michelin',
       quote: data?.testimonial_1_quote || 'Une journée mémorable organisée par ES Solutions gravée dans les mémoires de nos équipes',
       context: data?.testimonial_1_context || '(À propos d\'un événement annuel d\'équipe, organisé pour l\'équipe DOT/BS/ES du groupe Michelin)',
@@ -24,8 +24,8 @@ const TestimonialsSection = ({ data }: { data?: Record<string, string> }) => {
     {
       name: data?.testimonial_2_name || 'Bruno CHAMPOUX',
       role: data?.testimonial_2_role || 'Dirigeant,\nMontrognon Traiteur',
-      avatar: data?.testimonial_2_avatar || 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/d0wssQ5j-bruno-champoux.jpg',
-      logo: data?.testimonial_2_logo || 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/7Jqxyq6z-montrognon-traiteur-passion.webp',
+      avatar: data?.testimonial_2_avatar || 'https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/d0wssQ5j-bruno-champoux.jpg',
+      logo: data?.testimonial_2_logo || 'https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/7Jqxyq6z-montrognon-traiteur-passion.webp',
       logoAlt: data?.testimonial_2_logo_alt || 'Montrognon Traiteur',
       quote: data?.testimonial_2_quote || 'Cette collaboration nous enchante [...] Car elle repousse notre horizon, et va nous offrir de nouvelles opportunités de mettre en lumière le talent de nos fidèles collaborateurs, la sincérité de nos engagements RSE, la précision et la performance de nos prestations.',
       context: data?.testimonial_2_context || '(À propos de l\'accompagnement communication de Montrognon Traiteur)',

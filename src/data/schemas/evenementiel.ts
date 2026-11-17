@@ -8,7 +8,7 @@ const schema: PageSchema = {
     {
       title: 'Section Héro',
       fields: [
-        { key: 'hero_image', label: 'Icône / image du héro', type: 'image', placeholder: 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/Y4hFfPTG-evenementiel.png' },
+        { key: 'hero_image', label: 'Icône / image du héro', type: 'image', placeholder: 'https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/Y4hFfPTG-evenementiel.png' },
         { key: 'hero_title_part1', label: 'Titre – partie 1 (avant la couleur)', type: 'text', placeholder: 'COMMUNICATION' },
         { key: 'hero_title_part2', label: 'Titre – partie 2 (en orange)', type: 'text', placeholder: 'ÉVÉNEMENTIELLE' },
         { key: 'hero_subtitle', label: 'Sous-titre / accroche', type: 'textarea', placeholder: 'Créez des moments mémorables et impactants pour votre entreprise' },

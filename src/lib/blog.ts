@@ -101,7 +101,7 @@ export function contentToEditableHtml(content: BlogContentBlock[] | string | und
   return '';
 }
 
-const FALLBACK_AVATAR = 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/yBWBdDGV-ic-ne-logo-fonc.png';
+const FALLBACK_AVATAR = 'https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/yBWBdDGV-ic-ne-logo-fonc.png';
 
 // Transforme un document MongoDB en objet "plat" serialisable pour un composant client
 // (dates -> ISO string, auteur normalise en objet, image de couverture unifiee).

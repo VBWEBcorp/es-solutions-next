@@ -6,10 +6,10 @@ import { useInView } from 'react-intersection-observer';
 type Logo = { src: string; alt: string; extraClass?: string; isCMB?: boolean };
 
 const defaultLogos: Logo[] = [
-  { src: 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/spsPZsBK-michelin.jpg', alt: 'Michelin' },
-  { src: 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/8LRw2hMX-suchet-couverture.png', alt: 'Suchet', extraClass: 'bg-white p-2' },
-  { src: 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/VWDvJMBf-mister-pool.png', alt: 'Mister Pool' },
-  { src: 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/7Jqxyq6z-montrognon-traiteur-passion.webp', alt: 'Montrognon Traiteur' },
+  { src: 'https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/spsPZsBK-michelin.jpg', alt: 'Michelin' },
+  { src: 'https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/8LRw2hMX-suchet-couverture.png', alt: 'Suchet', extraClass: 'bg-white p-2' },
+  { src: 'https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/VWDvJMBf-mister-pool.png', alt: 'Mister Pool' },
+  { src: 'https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/7Jqxyq6z-montrognon-traiteur-passion.webp', alt: 'Montrognon Traiteur' },
   { src: '/Logo AM_ Fond blanc.png', alt: 'Auvergne Marée' },
   { src: '/JCE-Biotechnology-logo-full-color-rgb-900px (4).png', alt: 'JCE Biotechnology' },
   { src: '/LOGO-CMB-2025 (002).png', alt: 'CMB', isCMB: true },

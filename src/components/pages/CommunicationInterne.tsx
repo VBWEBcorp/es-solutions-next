@@ -11,7 +11,7 @@ const CommunicationInterne = ({ data }: { data?: Record<string, string> }) => {
   const [ref2, inView2] = useInView({ triggerOnce: true, threshold: 0.1 });
   const [showContactModal, setShowContactModal] = useState(false);
 
-  const heroImage = data?.hero_image || 'https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/C5n48TcF-com-interne.png';
+  const heroImage = data?.hero_image || 'https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/C5n48TcF-com-interne.png';
   const heroTitlePart1 = data?.hero_title_part1 || 'COMMUNICATION';
   const heroTitlePart2 = data?.hero_title_part2 || 'INTERNE';
   const heroSubtitle = data?.hero_subtitle || "Renforcez la cohésion d'équipe et optimisez le partage d'information au sein de votre entreprise";
@@ -131,7 +131,7 @@ const CommunicationInterne = ({ data }: { data?: Record<string, string> }) => {
                   {service.features.map((feature, i) => (
                     <li key={i} className="flex items-center text-gray-300">
                       <img
-                        src="https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/YB3Fypbs-coche-1.png"
+                        src="https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/YB3Fypbs-coche-1.png"
                         alt="Checkmark"
                         className="h-5 w-5 mr-3 flex-shrink-0"
                       />

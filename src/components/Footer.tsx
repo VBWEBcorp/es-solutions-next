@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="w-48 h-24 relative mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/yBWBdDGV-ic-ne-logo-fonc.png"
+                src="https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/yBWBdDGV-ic-ne-logo-fonc.png"
                 alt="ES Solutions"
                 className="absolute inset-0 w-full h-full object-contain"
               />

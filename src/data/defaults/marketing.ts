@@ -1,6 +1,6 @@
 // Valeurs reelles actuelles de la page marketing.
 const defaults: Record<string, string> = {
-  "hero_image": "https://pub-e1e97dba7b2643bc9151a20668a49e5e.r2.dev/images/1Y3wCStk-com-externe.png",
+  "hero_image": "https://pub-1eef308d0a754271b1c96b38618969fe.r2.dev/images/1Y3wCStk-com-externe.png",
   "hero_title_plain": "EXPERTISE",
   "hero_title_highlight": "MARKETING",
   "hero_subtitle": "Développez votre stratégie marketing et maximisez vos performances commerciales",
