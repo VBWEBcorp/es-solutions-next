@@ -27,32 +27,16 @@ type JobFormData = {
   coverLetter: File | null;
 }
 
-const uploadToCloudinary = async (file: File): Promise<string> => {
+// Le CV et la lettre de motivation sont rangés dans le stockage Cloudflare R2 du site.
+const uploadCandidature = async (file: File): Promise<string> => {
   const formData = new FormData();
   formData.append('file', file);
-  formData.append('upload_preset', 'unsigned_preset');
-  formData.append('cloud_name', 'dls5pjshs');
-
-  try {
-    const response = await fetch(`https://api.cloudinary.com/v1_1/dls5pjshs/upload`, {
-      method: 'POST',
-      body: formData,
-      headers: {
-        'Accept': 'application/json'
-      }
-    });
-
-    const data = await response.json();
-
-    if (!response.ok) {
-      throw new Error(`Cloudinary upload failed: ${data.error?.message || 'Unknown error'}`);
-    }
-
-    return data.secure_url;
-  } catch (error) {
-    console.error('Erreur upload Cloudinary:', error);
-    throw new Error('Erreur lors de l\'upload du fichier');
+  const response = await fetch('/api/candidature/upload', { method: 'POST', body: formData });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok || !data.url) {
+    throw new Error(data.error || "Erreur lors de l'upload du fichier");
   }
+  return data.url;
 };
 
 const Contact = ({ data }: { data?: Record<string, string> }) => {
@@ -237,9 +221,9 @@ const Contact = ({ data }: { data?: Record<string, string> }) => {
     setIsJobSubmitting(true);
 
     try {
-      // Upload des fichiers vers Cloudinary
-      const cvUrl = await uploadToCloudinary(jobFormData.cv);
-      const coverLetterUrl = await uploadToCloudinary(jobFormData.coverLetter);
+      // Upload des fichiers vers Cloudflare R2
+      const cvUrl = await uploadCandidature(jobFormData.cv);
+      const coverLetterUrl = await uploadCandidature(jobFormData.coverLetter);
 
       const formDataToSend = new FormData();
       formDataToSend.append('Type de demande', 'CANDIDATURE SPONTANÉE');
